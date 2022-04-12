@@ -23,7 +23,7 @@ namespace PerfumeryEfirr.Data
 
         public string Description { get; set; }
         public int DateRegister { get; set; }
-        public Type Type { get; set; }
+        public GenderType Type { get; set; }
 
         public ICollection<Order> Orders { get; set; }
         public ICollection<Promotions> Promotions { get; set; }

@@ -10,9 +10,9 @@ namespace PerfumeryEfirr.Data
         public int Id { get; set; }
 
         public int IdPerfume { get; set; }
-        public Perfumes Product { get; set; }
+        public Perfumes Perfumes { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public User User { get; set; }
 
         public int Quantity { get; set; }

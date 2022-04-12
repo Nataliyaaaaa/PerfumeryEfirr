@@ -8,19 +8,17 @@ namespace PerfumeryEfirr.Data
 {
     public class User : IdentityUser
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
-        public string IdRole { get; set; }
+        //public string IdRole { get; set; }
 
-        public string Telephone { get; set; }
+        //public string Telephone { get; set; }
 
-        public string FullName { get; set; }
-
-        public string Email { get; set; }
+        //public string FullName { get; set; }
 
         public RoleType Role { get; set; }
 
-        public virtual ICollection<Order> Orders { get; set; }
+        public ICollection<Order> Orders { get; set; }
 
 
 

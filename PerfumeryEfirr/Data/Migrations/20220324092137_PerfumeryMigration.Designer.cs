@@ -10,7 +10,7 @@ using PerfumeryEfirr.Data;
 namespace PerfumeryEfirr.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220323100708_PerfumeryMigration")]
+    [Migration("20220324092137_PerfumeryMigration")]
     partial class PerfumeryMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -18,7 +18,7 @@ namespace PerfumeryEfirr.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.13")
+                .HasAnnotation("ProductVersion", "5.0.14")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
